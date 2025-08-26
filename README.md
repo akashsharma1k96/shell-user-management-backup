@@ -67,7 +67,7 @@ chmod +x user_mgmt_backup.sh
 * **View recent logs**
    ```bash
     ./user_mgmt_backup.sh logs
-      ```
+   
       
 ## 🗂 Directory Structure
 ```
