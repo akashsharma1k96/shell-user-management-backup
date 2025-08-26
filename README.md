@@ -68,7 +68,6 @@ chmod +x user_mgmt_backup.sh
    ```bash
     ./user_mgmt_backup.sh logs
    
-      
 ## 🗂 Directory Structure
 ```
 shell-user-management-backup/
