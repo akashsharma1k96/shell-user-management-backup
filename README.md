@@ -1,6 +1,6 @@
 # 🐚 Shell Script for User Management and Backup in Linux
 
-A medium-level Bash script to automate basic **user management** and **directory backup/restore** in Linux.  
+A Bash script to automate basic **user management** and **directory backup/restore** in Linux.  
 This project demonstrates Linux commands, shell scripting, and logging, making it a practical example for sysadmin tasks.
 
 ---
@@ -35,32 +35,32 @@ This project demonstrates Linux commands, shell scripting, and logging, making i
 
 1. **Clone the repository**
 ```bash
-git clone https://github.com/akashsharma1k96/shell-user-management-backup.git
-cd shell-user-management-backup
+ git clone https://github.com/akashsharma1k96/shell-user-management-backup.git
+ cd shell-user-management-backup
 ```
 2. **Make the script executable**
-   ```bash
-   chmod +x user_mgmt_backup.sh
-   ```
+```bash
+chmod +x user_mgmt_backup.sh
+ ```
    
 3. **Run the script with commands**
    ```bash
-- Add a new user
+Add a new user
 ./user_mgmt_backup.sh adduser
 
-- Delete a user
+Delete a user
 ./user_mgmt_backup.sh deluser
 
-- List users
+List users
 ./user_mgmt_backup.sh listusers
 
-- Backup a directory
+Backup a directory
 ./user_mgmt_backup.sh backup
 
-- Restore a backup
+Restore a backup
 ./user_mgmt_backup.sh restore
 
-- View recent logs
+View recent logs
 ./user_mgmt_backup.sh logs
 
 ```
