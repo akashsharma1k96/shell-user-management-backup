@@ -64,3 +64,11 @@ View recent logs
 ./user_mgmt_backup.sh logs
 
 ```
+## 🗂 Directory Structure
+shell-user-management-backup/
+├── user_mgmt_backup.sh   # Main shell script
+├── README.md             # This documentation
+├── .gitignore            # Ignore backups and logs
+├── backups/              # Automatically created by script
+└── logs/                 # Automatically created by script
+
