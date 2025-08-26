@@ -44,26 +44,31 @@ chmod +x user_mgmt_backup.sh
  ```
    
 3. **Run the script with commands**
-   ```bash
-Add a new user
-./user_mgmt_backup.sh adduser
-
-Delete a user
-./user_mgmt_backup.sh deluser
-
-List users
-./user_mgmt_backup.sh listusers
-
-Backup a directory
-./user_mgmt_backup.sh backup
-
-Restore a backup
-./user_mgmt_backup.sh restore
-
-View recent logs
-./user_mgmt_backup.sh logs
-
-```
+    * **Add a new user**
+      ```bash
+      ./user_mgmt_backup.sh adduser
+      ```
+    * **Delete a user**
+      ```bash
+      ./user_mgmt_backup.sh deluser
+      ```
+    * **List users**
+      ```bash
+      ./user_mgmt_backup.sh listusers
+      ```
+    * **Backup a directory**
+      ```bash
+      ./user_mgmt_backup.sh backup
+      ```
+    * **Restore a backup**
+      ```bash
+      ./user_mgmt_backup.sh restore
+      ```
+    * **View recent logs**
+      ```bash
+      ./user_mgmt_backup.sh logs
+      ```
+      
 ## 🗂 Directory Structure
 shell-user-management-backup/
 ├── user_mgmt_backup.sh   # Main shell script
