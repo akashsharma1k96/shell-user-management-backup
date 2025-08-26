@@ -41,6 +41,7 @@ cd shell-user-management-backup
 2. **Make the script executable**
    ```bash
    chmod +x user_mgmt_backup.sh
+   ```
    
 3. **Run the script with commands**
    ```bash
