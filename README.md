@@ -59,11 +59,11 @@ chmod +x user_mgmt_backup.sh
 * **Backup a directory**
    ```bash
    ./user_mgmt_backup.sh backup
-      ```
+      
 * **Restore a backup**
    ```bash
    ./user_mgmt_backup.sh restore
-      ```
+      
 * **View recent logs**
    ```bash
     ./user_mgmt_backup.sh logs
