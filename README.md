@@ -55,7 +55,7 @@ chmod +x user_mgmt_backup.sh
 * **List users**
    ```bash
    ./user_mgmt_backup.sh listusers
-      ```
+      
 * **Backup a directory**
    ```bash
    ./user_mgmt_backup.sh backup
