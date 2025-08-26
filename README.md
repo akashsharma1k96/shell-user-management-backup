@@ -44,36 +44,38 @@ chmod +x user_mgmt_backup.sh
  ```
    
 3. **Run the script with commands**
-    * **Add a new user**
-      ```bash
-      ./user_mgmt_backup.sh adduser
+  * **Add a new user**
+    ```bash
+    ./user_mgmt_backup.sh adduser
+     ```
+* **Delete a user**
+   ```bash
+   ./user_mgmt_backup.sh deluser
+     ```
+* **List users**
+   ```bash
+   ./user_mgmt_backup.sh listusers
       ```
-    * **Delete a user**
-      ```bash
-      ./user_mgmt_backup.sh deluser
+* **Backup a directory**
+   ```bash
+   ./user_mgmt_backup.sh backup
       ```
-    * **List users**
-      ```bash
-      ./user_mgmt_backup.sh listusers
+* **Restore a backup**
+   ```bash
+   ./user_mgmt_backup.sh restore
       ```
-    * **Backup a directory**
-      ```bash
-      ./user_mgmt_backup.sh backup
-      ```
-    * **Restore a backup**
-      ```bash
-      ./user_mgmt_backup.sh restore
-      ```
-    * **View recent logs**
-      ```bash
-      ./user_mgmt_backup.sh logs
+* **View recent logs**
+   ```bash
+    ./user_mgmt_backup.sh logs
       ```
       
 ## 🗂 Directory Structure
+```
 shell-user-management-backup/
 ├── user_mgmt_backup.sh   # Main shell script
 ├── README.md             # This documentation
 ├── .gitignore            # Ignore backups and logs
 ├── backups/              # Automatically created by script
 └── logs/                 # Automatically created by script
+```
 
