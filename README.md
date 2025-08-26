@@ -44,21 +44,22 @@ cd shell-user-management-backup
    
 3. **Run the script with commands**
    ```bash
-Add a new user
+- Add a new user
 ./user_mgmt_backup.sh adduser
 
-Delete a user
+- Delete a user
 ./user_mgmt_backup.sh deluser
 
-List users
+- List users
 ./user_mgmt_backup.sh listusers
 
-Backup a directory
+- Backup a directory
 ./user_mgmt_backup.sh backup
 
-Restore a backup
+- Restore a backup
 ./user_mgmt_backup.sh restore
 
-View recent logs
+- View recent logs
 ./user_mgmt_backup.sh logs
+
 ```
